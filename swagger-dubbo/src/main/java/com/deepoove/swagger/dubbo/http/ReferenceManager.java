@@ -12,10 +12,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 
-import com.alibaba.dubbo.config.ApplicationConfig;
-import com.alibaba.dubbo.config.ReferenceConfig;
-import com.alibaba.dubbo.config.spring.ServiceBean;
-import com.alibaba.dubbo.config.spring.extension.SpringExtensionFactory;
 
 public class ReferenceManager {
     
