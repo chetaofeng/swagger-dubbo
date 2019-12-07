@@ -9,13 +9,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.alibaba.dubbo.config.ApplicationConfig;
 import com.deepoove.swagger.dubbo.http.ReferenceManager;
 
 import io.swagger.config.SwaggerConfig;
 import io.swagger.models.Contact;
 import io.swagger.models.Info;
 import io.swagger.models.Swagger;
+
+import org.apache.dubbo.config.ApplicationConfig;
 
 @Component
 public class DubboPropertyConfig implements SwaggerConfig {
