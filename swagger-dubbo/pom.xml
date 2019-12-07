@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>swagger-dubbo</artifactId>
-	<version>1.0.0.release</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 	<name>swagger-dubbo</name>
 
